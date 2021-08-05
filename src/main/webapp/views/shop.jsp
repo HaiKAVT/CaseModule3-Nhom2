@@ -1,4 +1,6 @@
 <!doctype html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html class="no-js" lang="zxx">
 <head>
     <meta charset="utf-8">
@@ -7,20 +9,20 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/flaticon.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/slicknav.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/animate.min.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/themify-icons.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/slick.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/nice-select.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/css/flaticon.css">
+    <link rel="stylesheet" href="/assets/css/slicknav.css">
+    <link rel="stylesheet" href="/assets/css/animate.min.css">
+    <link rel="stylesheet" href="/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/assets/css/themify-icons.css">
+    <link rel="stylesheet" href="/assets/css/slick.css">
+    <link rel="stylesheet" href="/assets/css/nice-select.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
@@ -30,7 +32,7 @@
         <div class="preloader-inner position-relative">
             <div class="preloader-circle"></div>
             <div class="preloader-img pere-text">
-                <img src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/img/logo/logo.png" alt="">
+                <img src="/assets/img/logo/logo.png" alt="">
             </div>
         </div>
     </div>
@@ -44,19 +46,19 @@
                 <div class="menu-wrapper">
                     <!-- Logo -->
                     <div class="logo">
-                        <a href="index.html"><img src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/img/logo/logo.png" alt=""></a>
+                        <a href="/home.jsp"><img src="/assets/img/logo/logo.png" alt=""></a>
                     </div>
                     <!-- Main-menu -->
                     <div class="main-menu d-none d-lg-block">
                         <nav>
                             <ul id="navigation">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="shop.html">shop</a></li>
-                                <li><a href="about.html">about</a></li>
+                                <li><a href="/views/homeUser.jsp">Home</a></li>
+                                <li><a href="/views/shop.jsp">shop</a></li>
+                                <li><a href="/views/about.jsp">about</a></li>
                                 </li>
                                 <li><a href="#">Account</a>
                                     <ul class="submenu">
-                                        <li><a href="login.html">Log out</a></li>
+                                        <li><a href="/login">Log out</a></li>
                                     </ul>
                                 </li>
                                 <li><a>Contact</a>
@@ -117,7 +119,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                             <div class="single-popular-items mb-50 text-center">
                                 <div class="popular-img">
-                                    <img src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/img/gallery/popular1.png" alt="">
+                                    <img src="/assets/img/gallery/popular1.png" alt="">
                                     <div class="img-cap">
                                         <span>Add to cart</span>
                                     </div>
@@ -126,7 +128,7 @@
                                     </div>
                                 </div>
                                 <div class="popular-caption">
-                                    <h3><a href="product_details.html">Thermo Ball Etip Gloves</a></h3>
+                                    <h3><a href="/thongtinthanhtoan.jsp">Thermo Ball Etip Gloves</a></h3>
                                     <span>$ 45,743</span>
                                 </div>
                             </div>
@@ -180,7 +182,7 @@
                         <div class="single-footer-caption mb-30">
                             <!-- logo -->
                             <div class="footer-logo">
-                                <a href="index.html"><img src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/img/logo/logo2_footer.png" alt=""></a>
+                                <a href="/index.jsp"><img src="/assets/img/logo/logo2_footer.png" alt=""></a>
                             </div>
                             <div class="footer-tittle">
                                 <div class="footer-pera">
@@ -239,39 +241,39 @@
 <!-- Search model end -->
 
 <!-- JS here -->
-<!-- All JS Custom Plugins Link Here here -->
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="/assets/js/vendor/modernizr-3.5.0.min.js"></script>
 <!-- Jquery, Popper, Bootstrap -->
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/vendor/jquery-1.12.4.min.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/popper.min.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
 <!-- Jquery Mobile Menu -->
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/jquery.slicknav.min.js"></script>
+<script src="/assets/js/jquery.slicknav.min.js"></script>
 
 <!-- Jquery Slick , Owl-Carousel Plugins -->
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/owl.carousel.min.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/slick.min.js"></script>
+<script src="/assets/js/owl.carousel.min.js"></script>
+<script src="/assets/js/slick.min.js"></script>
 
 <!-- One Page, Animated-HeadLin -->
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/wow.min.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/animated.headline.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/jquery.magnific-popup.js"></script>
+<script src="/assets/js/wow.min.js"></script>
+<script src="/assets/js/animated.headline.js"></script>
+<script src="/assets/js/jquery.magnific-popup.js"></script>
 
-<!-- Scroll up, nice-select, sticky -->
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/jquery.scrollUp.min.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/jquery.nice-select.min.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/jquery.sticky.js"></script>
+<!-- Scrollup, nice-select, sticky -->
+<script src="/assets/js/jquery.scrollUp.min.js"></script>
+<script src="/assets/js/jquery.nice-select.min.js"></script>
+<script src="/assets/js/jquery.sticky.js"></script>
 
 <!-- contact js -->
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/contact.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/jquery.form.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/jquery.validate.min.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/mail-script.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="/assets/js/contact.js"></script>
+<script src="/assets/js/jquery.form.js"></script>
+<script src="/assets/js/jquery.validate.min.js"></script>
+<script src="/assets/js/mail-script.js"></script>
+<script src="/assets/js/jquery.ajaxchimp.min.js"></script>
 
 <!-- Jquery Plugins, main Jquery -->
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/plugins.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/main.js"></script>
+<script src="/assets/js/plugins.js"></script>
+<script src="/assets/js/main.js"></script>
+
 
 </body>
 </html>

@@ -1,4 +1,6 @@
 <!doctype html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html lang="zxx">
 <head>
     <meta charset="utf-8">
@@ -7,20 +9,20 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/flaticon.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/slicknav.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/animate.min.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/themify-icons.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/slick.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/nice-select.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/css/flaticon.css">
+    <link rel="stylesheet" href="/assets/css/slicknav.css">
+    <link rel="stylesheet" href="/assets/css/animate.min.css">
+    <link rel="stylesheet" href="/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/assets/css/themify-icons.css">
+    <link rel="stylesheet" href="/assets/css/slick.css">
+    <link rel="stylesheet" href="/assets/css/nice-select.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
@@ -32,28 +34,26 @@
                 <div class="menu-wrapper">
                     <!-- Logo -->
                     <div class="logo">
-                        <a href="index.html"><img src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/img/logo/logo.png" alt=""></a>
+                        <a href="/home.jsp"><img src="/assets/img/logo/logo.png" alt=""></a>
                     </div>
                     <!-- Main-menu -->
                     <div class="main-menu d-none d-lg-block">
                         <nav>
                             <ul id="navigation">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="shop.html">shop</a></li>
-                                <li><a href="about.html">about</a></li>
+                                <li><a href="/views/homeUser.jsp">Home</a></li>
+                                <li><a href="/views/shop.jsp">shop</a></li>
+                                <li><a href="/views/about.jsp">about</a></li>
                                 </li>
                                 <li><a href="#">Account</a>
                                     <ul class="submenu">
-                                        <li><a href="login.html">Log out</a></li>
+                                        <li><a href="/login">Log out</a></li></ul>
+                                </li>
+                                <li><a>Contact</a>
+                                    <ul class="submenu">
+                                        <li><a href="https://www.facebook.com/LionWatch-130855712493988">Facebook</a>
+                                        </li>
                                     </ul>
-                            </ul>
-                            </li>
-                            <li><a>Contact</a>
-                                <ul class="submenu">
-                                    <li><a href="https://www.facebook.com/LionWatch-130855712493988">Facebook</a>
-                                    </li>
-                                </ul>
-                            </li>
+                                </li>
                             </ul>
                         </nav>
                     </div>

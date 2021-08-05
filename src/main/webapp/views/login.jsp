@@ -1,4 +1,6 @@
 <!doctype html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html lang="zxx">
 <head>
     <meta charset="utf-8">
@@ -6,21 +8,21 @@
     <title>Watch shop | eCommers</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/img/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/flaticon.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/slicknav.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/animate.min.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/themify-icons.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/slick.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/nice-select.css">
-    <link rel="stylesheet" href="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/css/flaticon.css">
+    <link rel="stylesheet" href="/assets/css/slicknav.css">
+    <link rel="stylesheet" href="/assets/css/animate.min.css">
+    <link rel="stylesheet" href="/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/assets/css/themify-icons.css">
+    <link rel="stylesheet" href="/assets/css/slick.css">
+    <link rel="stylesheet" href="/assets/css/nice-select.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 <header>
@@ -31,19 +33,16 @@
                 <div class="menu-wrapper">
                     <!-- Logo -->
                     <div class="logo">
-                        <a href="index.html"><img src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/img/logo/logo.png" alt=""></a>
+                        <a href="/home.jsp"><img src="/assets/img/logo/logo.png" alt=""></a>
                     </div>
                     <!-- Main-menu -->
                     <div class="main-menu d-none d-lg-block">
                         <nav>
                             <ul id="navigation">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="shop.html">shop</a></li>
-                                <li><a href="about.html">about</a></li>
-                                </li>
                                 <li><a>Contact</a>
                                     <ul class="submenu">
-                                        <li><a href="https://www.facebook.com/LionWatch-130855712493988">Facebook</a></li>
+                                        <li><a href="https://www.facebook.com/LionWatch-130855712493988">Facebook</a>
+                                        </li>
                                     </ul>
                                 </li>
                             </ul>
@@ -88,30 +87,31 @@
     <!-- Hero Area End-->
     <!--================login_part Area =================-->
     <section class="login_part section_padding ">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6">
-                    <div class="login_part_text text-center">
-                        <div class="login_part_text_iner">
-                            <h2>New to our Shop?</h2>
-                            <p>There are advances being made in science and technology
-                                everyday, and a good example of this is the</p>
-                            <a href="createAccount.html" class="btn_3">Create an Account</a>
+        <form class="row contact_form" action="/login?action=login" method="post" novalidate="novalidate">
+
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="login_part_text text-center">
+                            <div class="login_part_text_iner">
+                                <h2>New to our Shop?</h2>
+                                <p>There are advances being made in science and technology
+                                    everyday, and a good example of this is the</p>
+                                <a href="/login?action=createUser" class="btn_3">Create an Account</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="login_part_form">
-                        <div class="login_part_form_iner">
-                            <h3>Welcome Back ! <br>
-                                Please Sign in now</h3>
-                            <form class="row contact_form" action="#" method="post" novalidate="novalidate">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="login_part_form">
+                            <div class="login_part_form_iner">
+                                <h3>Welcome Back ! <br>
+                                    Please Sign in now</h3>
                                 <div class="col-md-12 form-group p_star">
-                                    <input type="text" class="form-control" id="name" name="name" value=""
+                                    <input type="text" class="form-control" id="userName" name="userName" value=""
                                            placeholder="Username">
                                 </div>
                                 <div class="col-md-12 form-group p_star">
-                                    <input type="password" class="form-control" id="password" name="password" value=""
+                                    <input type="password" class="form-control" id="passWord" name="passWord" value=""
                                            placeholder="Password">
                                 </div>
                                 <div class="col-md-12 form-group">
@@ -123,12 +123,12 @@
                                         log in
                                     </button>
                                 </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </form>
     </section>
     <!--================login_part end =================-->
 </main>
@@ -142,11 +142,12 @@
                         <div class="single-footer-caption mb-30">
                             <!-- logo -->
                             <div class="footer-logo">
-                                <a href="index.html"><img src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/img/logo/logo2_footer.png" alt=""></a>
+                                <img src="/assets/img/logo/logo2_footer.png" alt="">
                             </div>
                             <div class="footer-tittle">
                                 <div class="footer-pera">
-                                    <p>Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf sed do eiusmod tem.</p>
+                                    <p>Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf sed do eiusmod
+                                        tem.</p>
                                 </div>
                             </div>
                         </div>
@@ -200,38 +201,38 @@
 
 <!-- JS here -->
 
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="/assets/js/vendor/modernizr-3.5.0.min.js"></script>
 <!-- Jquery, Popper, Bootstrap -->
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/vendor/jquery-1.12.4.min.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/popper.min.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
 <!-- Jquery Mobile Menu -->
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/jquery.slicknav.min.js"></script>
+<script src="/assets/js/jquery.slicknav.min.js"></script>
 
 <!-- Jquery Slick , Owl-Carousel Plugins -->
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/owl.carousel.min.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/slick.min.js"></script>
+<script src="/assets/js/owl.carousel.min.js"></script>
+<script src="/assets/js/slick.min.js"></script>
 
 <!-- One Page, Animated-HeadLin -->
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/wow.min.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/animated.headline.js"></script>
+<script src="/assets/js/wow.min.js"></script>
+<script src="/assets/js/animated.headline.js"></script>
+<script src="/assets/js/jquery.magnific-popup.js"></script>
 
-<!-- Scroll up, nice-select, sticky -->
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/jquery.scrollUp.min.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/jquery.nice-select.min.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/jquery.sticky.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/jquery.magnific-popup.js"></script>
+<!-- Scrollup, nice-select, sticky -->
+<script src="/assets/js/jquery.scrollUp.min.js"></script>
+<script src="/assets/js/jquery.nice-select.min.js"></script>
+<script src="/assets/js/jquery.sticky.js"></script>
 
 <!-- contact js -->
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/contact.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/jquery.form.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/jquery.validate.min.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/mail-script.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="/assets/js/contact.js"></script>
+<script src="/assets/js/jquery.form.js"></script>
+<script src="/assets/js/jquery.validate.min.js"></script>
+<script src="/assets/js/mail-script.js"></script>
+<script src="/assets/js/jquery.ajaxchimp.min.js"></script>
 
 <!-- Jquery Plugins, main Jquery -->
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/plugins.js"></script>
-<script src="../../Users/iU%20LOVE/OneDrive/Desktop/Module3/CaseModule3-Nhom2/assets/js/main.js"></script>
+<script src="/assets/js/plugins.js"></script>
+<script src="/assets/js/main.js"></script>
 
 </body>
 
